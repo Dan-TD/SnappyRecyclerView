@@ -5,6 +5,21 @@ An extension to RecyclerView which will snap to child Views to the specified anc
 <br/>
 <img src="./app/src/main/assets/demo.gif" alt="Demo Screen Capture" />
 
+## Setup
+
+#### Gradle
+
+`compile 'com.github.dan-td:snappy-recyclerview:1.0.0'`
+
+#### Maven
+```
+<dependency>
+    <groupId>com.github.dan-td</groupId>
+    <artifactId>snappy-recyclerview</artifactId>
+    <version>1.0.0</version>
+    </dependency>
+```
+
 ## Sample Usage
 
 ```xml
