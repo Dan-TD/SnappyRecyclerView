@@ -33,7 +33,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'maven'
-        name = 'SnappyRecyclerView'
+        name = 'snappy-recyclerview'
         desc = 'An extension to RecyclerView which will snap to child Views to the specified anchor, START, CENTER or END.'
         websiteUrl = 'https://github.com/Dan-TD/SnappyRecyclerView'
         vcsUrl = 'https://github.com/Dan-TD/SnappyRecyclerView.git'
