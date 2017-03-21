@@ -1,1 +1,1 @@
-include ':app', ':centersnapreyclerview'
+include ':app', ':SnappyReyclerView'
