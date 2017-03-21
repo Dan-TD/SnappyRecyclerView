@@ -1,0 +1,44 @@
+apply plugin: 'com.jfrog.bintray'
+
+version = '1.0.0'
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
+// Bintray
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+bintray {
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+
+    configurations = ['archives']
+    pkg {
+        repo = 'maven'
+        name = 'SnappyRecyclerView'
+        desc = 'An extension to RecyclerView which will snap to child Views to the specified anchor, START, CENTER or END.'
+        websiteUrl = 'https://github.com/Dan-TD/SnappyRecyclerView'
+        vcsUrl = 'https://github.com/Dan-TD/SnappyRecyclerView.git'
+        licenses = ["MIT"]
+        publish = true
+        publicDownloadNumbers = true
+    }
+}

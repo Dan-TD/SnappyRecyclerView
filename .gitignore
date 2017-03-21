@@ -35,6 +35,11 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+CenteringRecyclerView/.idea/workspace.xml
 
 # Keystore files
 *.jks
+
+.idea/*
+
+

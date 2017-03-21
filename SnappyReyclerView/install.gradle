@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.dan-td'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.github.dan-td'
+                artifactId 'SnappyRecyclerView'
+
+                name 'SnappyRecyclerView'
+                description 'An extension to RecyclerView which will snap to child Views to the specified anchor, START, CENTER or END.'
+                url 'https://github.com/Dan-TD/SnappyRecyclerView'
+
+                licenses {
+                    license {
+                        name 'MIT License'
+                        url 'https://opensource.org/licenses/MIT'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'dan-td'
+                        name 'Daniel Tanner-Davies'
+                        email 'danie.tannerdavies@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/Dan-TD/SnappyRecyclerView.git'
+                    developerConnection 'https://github.com/Dan-TD/SnappyRecyclerView.git'
+                    url 'https://github.com/Dan-TD/SnappyRecyclerView'
+
+                }
+            }
+        }
+    }
+}
