@@ -8,7 +8,7 @@ install {
             project {
                 packaging 'aar'
                 groupId 'com.github.dan-td'
-                artifactId 'SnappyRecyclerView'
+                artifactId 'snappy-recyclerview'
 
                 name 'SnappyRecyclerView'
                 description 'An extension to RecyclerView which will snap to child Views to the specified anchor, START, CENTER or END.'
@@ -24,7 +24,7 @@ install {
                     developer {
                         id 'dan-td'
                         name 'Daniel Tanner-Davies'
-                        email 'danie.tannerdavies@gmail.com'
+                        email 'daniel.tannerdavies@gmail.com'
                     }
                 }
                 scm {
