@@ -1,3 +1,5 @@
+[![Build Status](https://www.bitrise.io/app/5148ffd6da031702.svg?token=sZ7oWu0dY7qzMDrhZ01Enw&branch=develop)](https://www.bitrise.io/app/5148ffd6da031702)
+
 # SnappyRecyclerView
 
 An extension to RecyclerView which will snap to child Views to the specified anchor, START, CENTER or END.
