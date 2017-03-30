@@ -1,7 +1,5 @@
 [![Build Status](https://www.bitrise.io/app/5148ffd6da031702.svg?token=sZ7oWu0dY7qzMDrhZ01Enw&branch=master)](https://www.bitrise.io/app/5148ffd6da031702)
-
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Snappy%20RecyclerView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5473)
-
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Snappy%20RecyclerView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5473) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # SnappyRecyclerView
