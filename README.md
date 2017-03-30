@@ -1,4 +1,8 @@
-[![Build Status](https://www.bitrise.io/app/5148ffd6da031702.svg?token=sZ7oWu0dY7qzMDrhZ01Enw&branch=develop)](https://www.bitrise.io/app/5148ffd6da031702)
+[![Build Status](https://www.bitrise.io/app/5148ffd6da031702.svg?token=sZ7oWu0dY7qzMDrhZ01Enw&branch=master)](https://www.bitrise.io/app/5148ffd6da031702)
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Snappy%20RecyclerView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5473)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # SnappyRecyclerView
 
@@ -11,14 +15,14 @@ An extension to RecyclerView which will snap to child Views to the specified anc
 
 #### Gradle
 
-`compile 'com.github.dan-td:snappy-recyclerview:1.0.0'`
+`compile 'com.github.dan-td:snappy-recyclerview:1.0.2'`
 
 #### Maven
 ```
 <dependency>
     <groupId>com.github.dan-td</groupId>
     <artifactId>snappy-recyclerview</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     </dependency>
 ```
 
