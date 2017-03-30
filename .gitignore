@@ -42,4 +42,8 @@ CenteringRecyclerView/.idea/workspace.xml
 
 .idea/*
 
+# Bintray files
+snappy-recyclerview/bintray.gradle
+snappy-recyclerview/install.gradle
+
 
